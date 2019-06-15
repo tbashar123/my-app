@@ -2,6 +2,7 @@ import React, { useState, Fragment } from "react";
 import AddUserForm from "./forms/AddUserForm";
 import EditUserForm from "./forms/EditUserForm";
 import UserTable from "./tables/UserTable";
+import students from './Students.jpeg'
 
 export const Student = () => {
   const usersData = [
@@ -75,6 +76,8 @@ export const Student = () => {
           <input name="fname" value="TJ" />
           <input type="submit" value="submit" />
         </form>
+
+<img src={students} alt=""/>
       </div>
     </div>
   );
