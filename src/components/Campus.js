@@ -1,5 +1,5 @@
 import React from "react";
-
+import CollegeCampus from './CollegeCampus.jpeg'
 export const Campus = () => (
   <div>
     <h2>Campus Page</h2>
@@ -12,5 +12,6 @@ export const Campus = () => (
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+  <img src={CollegeCampus} alt=""/>
   </div>
 );
